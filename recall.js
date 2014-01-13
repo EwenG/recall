@@ -17,7 +17,7 @@
   }
   else
   {
-    var localRoot = path.join(lt.objs.plugins.user_plugins_dir, 'recall'); //When recalled is manually cloned from the repository, the recall folder is created with a lower case
+    var localRoot = path.join(lt.objs.plugins.user_plugins_dir, 'recall'); //When recall is manually cloned from the repository, the recall folder is created with a lower case
   }
 
   var ltrap = require(path.join(localRoot, 'node_modules', 'ltrap'))(window, localRoot);
